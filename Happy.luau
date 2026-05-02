@@ -398,7 +398,7 @@ end
 -- ========================
 local function checkKey()
     if textbox.Text == correctKey then
-        frame.Visible = false
+        frame.Visible = true
         mainFrame.Visible = true
         notify("Login success")
     else
